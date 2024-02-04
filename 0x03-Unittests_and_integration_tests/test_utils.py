@@ -41,7 +41,7 @@ class TestAccessNestedMap(unittest.TestCase):
             self,
             nested_map: Dict,
             path: Tuple[str],
-            expception: Exception,
+            exception: Exception,
             ) -> None:
         """ A test for access_nested_map exception raising output"""
         with self.assertRaises(exception):
